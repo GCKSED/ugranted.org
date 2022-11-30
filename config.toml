@@ -9,18 +9,10 @@ canonifyURLs = false
 paginate = 9
 
 copyright = 'Grant County Economic Development'
-defaultContentLanguage = 'en'
 languageCode = "en-us"
-[languages]
-  [languages.en]
-    baseURL = 'https://ugranted.org'
-    languageName = 'English'
-    title = 'Grant County Economic Development'
-    weight = 1
 
 [params]
   seoTitle = "Grant County Economic Development"
-  seoDescription = "Branding, Design, Development, and Motion"
   description = "Branding, Design, Development, and Motion"
   gitlab = "https://gitlab.com/gceddev/ugranted.org"
   facebook = "https://www.facebook.com/gced"
@@ -92,8 +84,7 @@ privacyEnhanced = true
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.105.0"
-    max = "0.105.0"
+    min = "0.104.0"
 
   [[module.mounts]]
     source = "assets"

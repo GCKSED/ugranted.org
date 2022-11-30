@@ -1,44 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
-<style type="text/css">
-	.st0{clip-path:url(#SVGID_2_);}
-	.st1{clip-path:url(#SVGID_4_);}
-	.st2{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
-</style>
-<g>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" width="700" height="700"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st0">
-			<defs>
-				<path id="SVGID_3_" d="M175,0h350c96.2,0,175,76.4,175,169.7v360.6c0,93.3-78.8,169.7-175,169.7H175C78.8,700,0,623.6,0,530.3
-					V169.7C0,76.4,78.8,0,175,0z"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-			</clipPath>
-			<g class="st1">
-				<defs>
-					<rect id="SVGID_5_" width="700" height="700"/>
-				</defs>
-				<clipPath id="SVGID_6_">
-					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-				</clipPath>
-				<g style="clip-path:url(#SVGID_6_);">
-					
-						<image style="overflow:visible;" width="300" height="300" xlink:href="DD8983EB.jpg"  transform="matrix(2.3333 0 0 2.3333 0 0)">
-					</image>
-				</g>
-			</g>
-		</g>
-		<path class="st2" d="M285.3,365.9h8.5l116.6,209.9c50.9,0,95.4,4.2,137.8,8.5V113.6c-38.2,4.2-82.7,4.2-133.6,8.5v218.4h-8.5
-			L289.6,122.1c-50.9,0-99.6-4.2-137.8-8.5v472.8c38.2-4.2,82.7-8.5,133.6-8.5V365.9z"/>
-	</g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="700.000000pt" height="700.000000pt" viewBox="0 0 700.000000 700.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.14, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,700.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M177 6763 c-6 -14 0 -3435 7 -3508 19 -210 41 -345 87 -525 145 -579
+432 -1085 853 -1506 197 -196 293 -276 491 -410 320 -216 643 -367 985 -459 8
+-2 40 -11 70 -19 30 -8 66 -17 80 -20 14 -2 45 -9 70 -15 43 -9 187 -33 275
+-45 220 -30 631 -28 840 4 33 5 80 12 105 15 25 3 52 7 60 10 8 2 31 7 50 10
+83 14 280 64 370 95 100 34 212 75 247 91 23 11 44 19 47 19 24 0 372 180 446
+231 14 9 67 45 119 79 459 303 855 755 1107 1260 104 209 189 436 240 638 9
+36 44 199 49 227 23 137 27 166 41 315 7 86 14 3485 6 3508 -3 9 -345 12
+-1663 12 l-1659 0 0 -858 0 -857 781 0 c429 0 785 -3 791 -6 11 -7 14 -1599 4
+-1688 -9 -73 -17 -124 -28 -171 -5 -25 -11 -54 -14 -65 -22 -109 -128 -350
+-207 -467 -126 -189 -288 -347 -482 -470 -153 -98 -377 -186 -545 -214 -14 -2
+-36 -7 -50 -10 -13 -3 -54 -8 -90 -11 -367 -30 -699 47 -995 230 -418 258
+-696 700 -740 1177 -4 41 -7 825 -7 1743 l0 1667 -869 0 c-477 0 -870 -3 -872
+-7z"/>
 </g>
 </svg>

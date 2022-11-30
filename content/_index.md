@@ -1,9 +1,9 @@
 ---
 title: "Grant County Economic Development"
-date: "2018-07-01"
+date: "2022-11-14T12:00:00.000Z"
 language: "en"
 description: "Branding, Design, Development, and Motion"
-author: "Grant County Economic Development"
+author: "UGranted"
 authorimage: "../assets/images/global/author.webp"
-authortitle: "Creative Director, Coder, Open-Source Fanatic"
+authortitle: "Grant County, Kansas Economic Development"
 ---

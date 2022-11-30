@@ -1,0 +1,155 @@
+{{define "main"}}
+<main>
+    <article>
+        <div class="px-6 mx-auto dark:prose-invert dark:text-white">
+            <header>
+                {{ with .Title }}
+                <h1
+                    class="py-12 text-5xl font-extrabold leading-tight text-center text-zinc-900 not-prose dark:text-white lg:text-6xl drop-shadow-lg">
+                    {{- . -}}
+                </h1>
+                {{ end }}
+            </header>
+            <section class="max-w-full mx-auto tracking-tight">
+                <div class="px-4 mx-auto mb-8 lg:mb-16 max-w-screen-2xl">
+                    <div class="max-w-screen-md px-4 mx-auto mb-8 text-center">
+                        <p class="font-light text-zinc-600 dark:text-white sm:text-xl">
+                            Want to send feedback, or would you like more information on grants, or help on how you can
+                            start a business in Grant County? Need details about a business plan, or a proposal?
+                            Let us know, we're here to help.
+                        </p>
+                    </div>
+                    <div class="mb-4 lg:mb-4">
+                        <form action="https://formsubmit.co/gceddev@gmail.com" method="POST"
+                              class="grid max-w-screen-md grid-cols-1 gap-8 mx-auto sm:grid-cols-2">
+                            <div>
+                                <label for="first-name"
+                                       class="block mb-2 font-medium tracking-tight text-md text-zinc-900 dark:text-zinc-100">
+                                    First Name
+                                </label>
+                                <input type="text" id="first-name"
+                                       class="block w-full p-3 tracking-tight border rounded-lg shadow-sm text-md text-zinc-900 border-zinc-300 bg-zinc-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                       placeholder="John" required>
+                            </div>
+                            <div>
+                                <label for="last-name"
+                                       class="block mb-2 font-medium tracking-tight text-md text-zinc-900 dark:text-zinc-100">
+                                    Last Name
+                                </label>
+                                <input type="text" id="last-name"
+                                       class="block w-full p-3 tracking-tight border rounded-lg shadow-sm text-md text-zinc-900 border-zinc-300 bg-zinc-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                       placeholder="Doe" required>
+                            </div>
+                            <div>
+                                <label for="email"
+                                       class="block mb-2 font-medium tracking-tight text-md text-zinc-900 dark:text-zinc-100">
+                                    Your Email
+                                </label>
+                                <input type="email" id="email"
+                                       class="shadow-sm bg-zinc-50 border border-zinc-300 text-zinc-900 text-md tracking-tight rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                       placeholder="name@example.com" required>
+                            </div>
+                            <div>
+                                <label for="phone-number"
+                                       class="block mb-2 font-medium tracking-tight text-md text-zinc-900 dark:text-zinc-100">
+                                    Phone Number
+                                </label>
+                                <input type="number" id="phone-number"
+                                       class="block w-full p-3 tracking-tight border rounded-lg shadow-sm text-md text-zinc-900 border-zinc-300 bg-zinc-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                       placeholder="555-123-4567" required>
+                            </div>
+                            <div class="sm:col-span-2">
+                                <label for="message"
+                                       class="block mb-2 font-medium tracking-tight text-md text-zinc-900 dark:text-zinc-100">
+                                    Your message
+                                </label>
+                                <textarea id="message" rows="6"
+                                          class="block p-2.5 w-full text-md tracking-tight text-zinc-900 bg-zinc-50 rounded-lg shadow-sm border border-zinc-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                          placeholder="Leave a comment..."></textarea>
+                                <p class="mt-4 tracking-tight text-md text-zinc-500">By submitting this form you agree
+                                    to our <a href="/terms-of-service"
+                                       class="text-primary-600 hover:underline dark:text-primary-500">terms and
+                                        conditions</a>
+                                    and our <a href="/privacy-policy"
+                                       class="text-primary-600 hover:underline dark:text-primary-500">privacy
+                                        policy</a> which explains how we may collect, use and disclose your personal
+                                    information including to third parties.
+                                </p>
+                            </div>
+                            <input type="hidden" name="_next" value="https://ugranted.org/contact-thank-you"
+                                   style="display:none" class="hidden">
+                            <input type="hidden" name="_subject" value="Contact submission from UGranted.org"
+                                   style="display:none" class="hidden">
+                            <input type="hidden" name="_cc" value="gceddev@gmail.com" style="display:none"
+                                   class="hidden">
+                            <button type="submit"
+                                    class="px-5 py-3 font-extrabold tracking-tight text-center text-white rounded-lg text-md bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="max-w-5xl pb-8 mx-auto lg:py-16">
+                    <div class="grid grid-cols-1 col-span-1 gap-8 text-center sm:grid-cols-1 lg:grid-cols-3">
+                        <div>
+                            <div
+                                 class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-lg bg-zinc-100 dark:bg-zinc-800 lg:h-16 lg:w-16">
+                                <svg class="w-5 h-5 text-zinc-600 lg:w-8 lg:h-8 dark:text-zinc-500" fill="currentColor"
+                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                          d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
+                                          clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <p class="mb-2 text-xl font-bold text-zinc-900 dark:text-white">Company information:</p>
+                            <p class="text-zinc-500 dark:text-white">
+                                UGranted &mdash;<br>
+                                Grant County Economic Development
+                            </p>
+                        </div>
+                        <div>
+                            <div
+                                 class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-lg bg-zinc-100 dark:bg-zinc-800 lg:h-16 lg:w-16">
+                                <svg class="w-5 h-5 text-zinc-600 lg:w-8 lg:h-8 dark:text-zinc-500" fill="currentColor"
+                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                          d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                          clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <p class="mb-2 text-xl font-bold text-zinc-900 dark:text-white">Address:</p>
+                            <a href="https://www.google.com/maps/place/113+S+Main+St+%23+B,+Ulysses,+KS+67880/data=!4m2!3m1!1s0x870907ec5f6973ff:0x19809a1a96bda003?sa=X&ved=2ahUKEwjIptqr6tP7AhVUmGoFHTWyDcwQ8gF6BAgVEAE"
+                               class="font-normal text-primary-600 dark:text-primary-500 hover:text-primary-900 hover:underline focus:text-primary-900">
+                                113 S. Main St. Suite B<br>
+                                Ulysses, KS. 67880
+                            </a>
+                        </div>
+                        <div>
+                            <div
+                                 class="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-lg bg-zinc-100 dark:bg-zinc-800 lg:h-16 lg:w-16">
+                                <svg class="w-5 h-5 text-zinc-600 lg:w-8 lg:h-8 dark:text-zinc-500" fill="currentColor"
+                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                          d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <p class="mb-2 text-xl font-bold text-zinc-900 dark:text-white">Call us:</p>
+                            <p class="text-zinc-500 dark:text-white">
+                                Call us, we're always happy to help.
+                            </p>
+                            <a href="tel:16203562171 "
+                               class="font-normal text-primary-600 dark:text-primary-500 hover:text-primary-900 hover:underline focus:text-primary-900"><strong>Office:</strong>
+                                (620) 356-2171</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="mx-auto tracking-tight prose my-9 mt-9 lg:mt-12 lg:prose-xl dark:prose-invert">
+                {{.Content}}
+            </div>
+        </div>
+    </article>
+</main>
+{{end}}

@@ -1,13 +1,13 @@
 ---
 title: "Thank You!"
-date: "2021-12-18T03:10:36.000Z"
+date: "2022-11-14T12:00:00.000Z"
 draft: "false"
 language: "en"
 description: "Thank you for contacting Grant County Economic Development"
 og_image: "/images/opengraph/gced-1200x627.png"
-author: "Grant County Economic Development"
+author: "UGranted"
 authorimage: "../assets/images/global/author.webp"
-authortitle: "Creative Director, Coder, Open-Source Fanatic"
+authortitle: "Grant County, Kansas Economic Development"
 socialshare: "false"
 authorinfo: "false"
 ---

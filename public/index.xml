@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grant County Economic Development</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ugranted.org/</link>
     <description>Recent content on Grant County Economic Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Grant County Economic Development</copyright>
-    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Example Property 3</title>
-      <link>http://localhost:1313/blog/example-property-3/</link>
-      <pubDate>Thu, 06 Oct 2022 11:10:36 +0800</pubDate>
-      
-      <guid>http://localhost:1313/blog/example-property-3/</guid>
-      <description>Recently AI has exploded and been used for everything from writing poetry to drawing portraits and even creating music for musicians. AI has taken off in two major creative areas, writing, and art.</description>
-    </item>
-    
-    <item>
-      <title>Example Property 2</title>
-      <link>http://localhost:1313/blog/example-property-2/</link>
-      <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
-      
-      <guid>http://localhost:1313/blog/example-property-2/</guid>
-      <description>I’ve used Roots Trellis for a long time. When I first started using it I was designing and developing on a MacBook Pro. Developing on Apple products is a dream come true. It’s a fantastic environoment for development, and using libraries like Node.js.</description>
-    </item>
-    
-    <item>
-      <title>Example Property 1</title>
-      <link>http://localhost:1313/blog/example-property-1/</link>
-      <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
-      
-      <guid>http://localhost:1313/blog/example-property-1/</guid>
-      <description>When starting as a web developer, it can be hard to know where to host your site. If you want the most robust platform with the most flexibility, then deploying a server on DigitalOcean is likely your best bet.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 14 Nov 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://ugranted.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <link>https://ugranted.org/about/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
-      <description>Grant County Economic Development is about creating and helping people. That&amp;rsquo;s why I decided to start my own business—to help others looking for an online presence, digital marketing, branding, and illustration. My goal is to provide customers with high-quality artwork, websites, social media artwork, videos, and animations that will help them build an audience and engage with brands visually.</description>
+      <guid>https://ugranted.org/about/</guid>
+      <description>The Grant County, Economic Development Committee, works to attract new businesses to the area and facilitate local economic development. The county has many ongoing initiatives and programs. We focus on three areas of growth: growing human capital, business capacity, and county prosperity.</description>
+    </item>
+    
+    <item>
+      <title>Board Of Directors</title>
+      <link>https://ugranted.org/board-members/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ugranted.org/board-members/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat malesuada ligula, quis tempor dui efficitur sit amet. Nulla posuere suscipit dolor consectetur efficitur. Vivamus id purus id purus aliquam egestas. Integer imperdiet mattis dui, et pulvinar lacus venenatis nec. Nullam erat justo, sollicitudin quis metus id, porttitor eleifend felis. Quisque in odio felis. Praesent ac lectus sed massa venenatis tincidunt.
+Quisque sapien neque, iaculis sed vestibulum in, imperdiet nec ante.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      <link>https://ugranted.org/contact/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/contact/</guid>
-      <description> Got a technical issue? Want to send feedback, or would you like to get started on a project? Need details about a Business plan, or a proposal? Let me know.
-Your Name: (Required) </description>
+      <guid>https://ugranted.org/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Government</title>
+      <link>https://ugranted.org/government/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ugranted.org/government/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat malesuada ligula, quis tempor dui efficitur sit amet. Nulla posuere suscipit dolor consectetur efficitur. Vivamus id purus id purus aliquam egestas. Integer imperdiet mattis dui, et pulvinar lacus venenatis nec. Nullam erat justo, sollicitudin quis metus id, porttitor eleifend felis. Quisque in odio felis. Praesent ac lectus sed massa venenatis tincidunt. Quisque sapien neque, iaculis sed vestibulum in, imperdiet nec ante.</description>
+    </item>
+    
+    <item>
+      <title>Our Process</title>
+      <link>https://ugranted.org/our-process/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ugranted.org/our-process/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat malesuada ligula, quis tempor dui efficitur sit amet. Nulla posuere suscipit dolor consectetur efficitur. Vivamus id purus id purus aliquam egestas. Integer imperdiet mattis dui, et pulvinar lacus venenatis nec. Nullam erat justo, sollicitudin quis metus id, porttitor eleifend felis. Quisque in odio felis. Praesent ac lectus sed massa venenatis tincidunt. Quisque sapien neque, iaculis sed vestibulum in, imperdiet nec ante.</description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy-policy/</link>
-      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      <link>https://ugranted.org/privacy-policy/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/privacy-policy/</guid>
+      <guid>https://ugranted.org/privacy-policy/</guid>
       <description>At Grant County Economic Development, accessible from https://ugranted.org, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Grant County Economic Development and how we use it.
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Grant County Economic Development.</description>
@@ -67,10 +67,10 @@ This Privacy Policy applies only to our online activities and is valid for visit
     
     <item>
       <title>Terms of Service</title>
-      <link>http://localhost:1313/terms-of-service/</link>
-      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      <link>https://ugranted.org/terms-of-service/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/terms-of-service/</guid>
+      <guid>https://ugranted.org/terms-of-service/</guid>
       <description>Welcome to Grant County Economic Development!
 These terms and conditions outline the rules and regulations for the use of Grant County Economic Development&amp;rsquo;s Website, located at https://ugranted.org.
 By accessing this website we assume you accept these terms and conditions. Do not continue to use Grant County Economic Development if you do not agree to take all of the terms and conditions stated on this page.
@@ -79,22 +79,40 @@ The following terminology applies to these Terms and Conditions, Privacy Stateme
     
     <item>
       <title>Thank You for signing up for the newsletter</title>
-      <link>http://localhost:1313/email-thank-you/</link>
-      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      <link>https://ugranted.org/email-thank-you/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/email-thank-you/</guid>
+      <guid>https://ugranted.org/email-thank-you/</guid>
       <description> I appreicate you taking the time to signup for my newsletter. Get notififed when new articles and posts are published. Unsubscribe at any time.
 Back to Homepage </description>
     </item>
     
     <item>
       <title>Thank You!</title>
-      <link>http://localhost:1313/contact-thank-you/</link>
-      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
+      <link>https://ugranted.org/contact-thank-you/</link>
+      <pubDate>Mon, 14 Nov 2022 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/contact-thank-you/</guid>
+      <guid>https://ugranted.org/contact-thank-you/</guid>
       <description> I appreicate you taking the time to contact me. I will get back to you ASAP. My usual response time is a few hours, but rest assured, I will contact you in 48 hours or less.
 Back to Homepage </description>
+    </item>
+    
+    <item>
+      <title>Example Property 2</title>
+      <link>https://ugranted.org/blog/example-property-2/</link>
+      <pubDate>Sat, 03 Sep 2022 11:10:36 +0800</pubDate>
+      
+      <guid>https://ugranted.org/blog/example-property-2/</guid>
+      <description>Vivamus vitae ligula lacus. In et tempor purus. Phasellus risus arcu, vehicula eu finibus sed, porttitor et dolor. Nam vestibulum nec orci maximus suscipit. Fusce hendrerit, elit nec sodales mattis, purus libero accumsan lectus, vel pellentesque purus tellus id elit. Vestibulum placerat bibendum scelerisque. Vivamus eleifend at urna in sagittis.</description>
+    </item>
+    
+    <item>
+      <title>Example Property 1</title>
+      <link>https://ugranted.org/blog/example-property-1/</link>
+      <pubDate>Mon, 08 Aug 2022 11:10:36 +0800</pubDate>
+      
+      <guid>https://ugranted.org/blog/example-property-1/</guid>
+      <description>Vivamus vitae ligula lacus. In et tempor purus. Phasellus risus arcu, vehicula eu finibus sed, porttitor et dolor. Nam vestibulum nec orci maximus suscipit. Fusce hendrerit, elit nec sodales mattis, purus libero accumsan lectus, vel pellentesque purus tellus id elit. Vestibulum placerat bibendum scelerisque. Vivamus eleifend at urna in sagittis.</description>
     </item>
     
   </channel>

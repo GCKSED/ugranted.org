@@ -14,7 +14,7 @@
                 </a>
                 <div class="flex-1 p-6 bg-white max-w-content rounded-b-2xl">
                     <h3
-                        class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-900 hover:text-primary-600 dark:hover:text-primary-600 hover:underline">
+                        class="block mt-2 text-2xl font-extrabold text-gray-900 dark:text-gray-900 hover:text-primary-600 dark:hover:text-primary-600 hover:underline">
                         <a href="{{.Permalink}}">
                             {{.Title}}
                         </a>
@@ -22,7 +22,7 @@
                     <p class="mt-3 text-base text-gray-900 dark:text-gray-900">
                         {{ .Params.summary }}
                     </p>
-                    <div class="mt-3 font-black text-black">Tags:</div>
+                    <div class="mt-3 font-extrabold text-black">Tags:</div>
                     <div class="max-w-full pt-2 text-sm font-medium text-gray-900">
                         {{ range $k, $v := .GetTerms "tags" }}
                         {{- if $k }} {{ end }}
@@ -40,7 +40,7 @@
                             {{ with .Params.authorimage }}
                             {{ with resources.Get . }}
                             {{ $authorimage := (.Resize "40x webp q100").RelPermalink }}
-                            <img class="w-10 h-10 rounded-full" src="{{ $authorimage }}" alt="Jeremy Nusser" width="40"
+                            <img class="w-10 h-10" src="{{ $authorimage }}" alt="UGranted" width="40"
                                  height="40">
                             {{ end }}
                             {{ end }}

@@ -16,6 +16,8 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "flowbite-typography": "^1.0.3",
+    "lato-font": "^3.0.0",
+    "typeface-work-sans": "^1.1.13",
     "vanilla-lazyload": "^17.8.3"
   },
   "scripts": {

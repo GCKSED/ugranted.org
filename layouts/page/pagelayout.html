@@ -1,16 +1,66 @@
 {{define "main"}}
 <main>
     <article>
-        <div class="px-6 mx-auto max-w-7xl dark:prose-invert dark:text-white">
-            <header>
+        <div class="max-w-5xl px-6 mx-auto dark:prose-invert dark:text-white">
+            <header class="not-prose">
+                {{ with .Params.featured_image }}
+                <div class="flex max-w-5xl mx-auto mt-12 mb-6">
+                    {{ with resources.Get . }}
+                    {{ $small := (.Resize "450x webp q90").RelPermalink }}
+                    {{ $medium := (.Resize "650x webp q90").RelPermalink }}
+                    {{ $featuredimage := (.Resize "928x webp q90").RelPermalink }}
+                    <img src="{{ $featuredimage }}"
+                        srcset=" {{- with $small -}}, {{.}} 450w{{- end -}}{{- with $medium -}}, {{.}} 650w{{- end -}}{{- with $featuredimage -}}, {{.}} 928w{{- end -}}"
+                        class="object-fill overflow-hidden shadow-lg rounded-2xl ring-4 ring-black/40 dark:ring-zinc-800/40 shadow-zinc-800/20 dark:shadow-zinc-800/40"
+                        width="100%" alt="{{ .Params.title }}" />
+                    {{ end }}
+                </div>
+                {{ end }}
                 {{ with .Title }}
                 <h1
-                    class="pt-12 text-5xl font-extrabold leading-tight text-center text-gray-900 not-prose dark:text-white lg:text-6xl drop-shadow-lg">
+                    class="mt-12 text-3xl font-extrabold leading-tight text-center text-zinc-900 dark:text-white my-9 lg:text-6xl drop-shadow-lg">
                     {{- . -}}
                 </h1>
                 {{ end }}
+                <div class="max-w-5xl mx-auto md:mt-6 not-prose">
+                    {{- if .Param "authorinfo" }}
+                    <div
+                        class="flex flex-col justify-between py-4 border-t border-b border-zinc-200 lg:flex-row lg:items-center dark:prose-invert dark:text-white dark:border-zinc-700">
+                        <div class="flex items-center mb-2 space-x-3 text-base text-zinc-500 dark:text-white lg:mb-0">
+                            <address class="flex pt-2 mb-3 not-italic items-centermy-6 not-prose">
+                                <div class="inline-flex items-center mr-3 text-sm text-zinc-900 dark:text-white">
+                                    <span class="sr-only">{{ .Params.author }}</span>
+                                    {{ with .Params.authorimage }}
+                                    {{ with resources.Get . }}
+                                    {{ $authorimage := (.Resize "400x webp").RelPermalink }}
+                                    <img class="w-16 h-16 mr-4" src="{{ $authorimage }}" alt="{{ .Params.author }}">
+                                    {{ end }}
+                                    {{ end }}
+                                    <div>
+                                        <div class="text-xl font-bold text-zinc-900 dark:text-white">
+                                            {{ .Params.author }}
+                                        </div>
+                                        <p class="text-base font-light text-zinc-500 dark:text-white">
+                                            {{ .Params.authortitle }}
+                                        </p>
+                                        <p class="text-base font-light text-zinc-500 dark:text-white">
+                                            <time datetime="2020-02-12">{{.Date.Format "2006-01-02"}}
+                                            </time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </address>
+                        </div>
+                        <aside aria-label="Share social media" class="pt-2 mb-2">
+                            <div class="not-format">
+                                {{ partial "socialshare.html" . }}
+                            </div>
+                        </aside>
+                    </div>
+                    {{ end }}
+                </div>
             </header>
-            <div class="mx-auto prose my-9 mt-9 lg:mt-12 lg:prose-xl dark:prose-invert">
+            <div class="mx-auto tracking-tight prose my-9 mt-9 lg:mt-12 lg:prose-xl dark:prose-invert">
                 {{.Content}}
             </div>
         </div>
