@@ -21,7 +21,6 @@ languageCode = "en-us"
   twitter = "@gced"
   Author = "Grant County Economic Development"
   authorimage = "/images/global/author.png"
-  googleAnalyticsID = "G-336639819"
 
 [sitemap]
   changefreq = 'weekly'
