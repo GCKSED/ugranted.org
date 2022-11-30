@@ -7,7 +7,7 @@ HUGO_VERSION = "0.107.0"
 GO_VERSION = "1.19.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-HUGO_BASEURL = "https://ugranted.org"
+HUGO_BASEURL = "https://ugranted.netlify.app/"
 
 [context.staging]
 command = "hugo --gc --minify"
@@ -16,7 +16,7 @@ HUGO_VERSION = "0.107.0"
 GO_VERSION = "1.19.2"
 HUGO_ENV = "staging"
 HUGO_ENABLEGITINFO = "true"
-HUGO_BASEURL = "https://staging.gced.com"
+HUGO_BASEURL = "https://ugranted.netlify.app/"
 
 [context.development]
 command = "hugo --gc --minify"
