@@ -5,8 +5,9 @@ sitename = "Grant County Economic Development"
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = false
-canonifyURLs = false
 paginate = 9
+disableKinds = ["robotsTXT"]
+
 
 copyright = 'Grant County Economic Development'
 languageCode = "en-us"
