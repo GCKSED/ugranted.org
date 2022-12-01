@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ugranted-org.vercel.app/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/board-members/</loc>
+    <loc>/board-members/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/government/</loc>
+    <loc>/government/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/</loc>
+    <loc>/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/our-process/</loc>
+    <loc>/our-process/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/privacy-policy/</loc>
+    <loc>/privacy-policy/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/terms-of-service/</loc>
+    <loc>/terms-of-service/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/email-thank-you/</loc>
+    <loc>/email-thank-you/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/contact-thank-you/</loc>
+    <loc>/contact-thank-you/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/categories/blog/</loc>
+    <loc>/categories/blog/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/blog/example-property-2/</loc>
+    <loc>/blog/example-property-2/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/categories/featured/</loc>
+    <loc>/categories/featured/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/tags/property-listings/</loc>
+    <loc>/tags/property-listings/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
-    <loc>https://ugranted-org.vercel.app/blog/example-property-1/</loc>
+    <loc>/blog/example-property-1/</loc>
     <lastmod>2022-11-30T16:59:31-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
